@@ -27,7 +27,7 @@ streamlit.dataframe(fruits_to_show)
 import requests
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + "kiwi")
 streamlit.header("Fruityvice Fruit Advice!")
-streamlit.text(fruityvice_response.json())
+#streamlit.text(fruityvice_response.json())
 #Puts it isnto a panda data frame
 fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 # my guess is it give it puts names
