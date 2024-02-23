@@ -33,6 +33,8 @@ streamlit.dataframe(fruityvice_normalized)
 #only show the selected fruits
 
 
+
+import snowflake.connector
 #try:
 #   fruit_choice = streamlit.text_input('What fruit would you like information about?')
 #   if not fruit_choice:
