@@ -55,17 +55,17 @@ try:
       back_from_function = get_fruityvice_data(fruit_choice)
       streamlit.dataframe(back_from_function)
       
-#except URLError as e:
-   #streamlit.error()
+# except URLError as e:
+   # streamlit.error()
 
-#streamlit.write('The user entered ', fruit_choice)
+# streamlit.write('The user entered ', fruit_choice)
 
-#streamlit.text(fruityvice_response.json())
+# streamlit.text(fruityvice_response.json())
 #Puts it isnto a panda data frame
 # my guess is it give it puts names
 
-#streamlit.stop()
+# streamlit.stop()
 
-#add_my_fruit = streamlit.text_input('What more fruit would you like to add?')
-#streamlit.write('Thanks for adding  ', add_my_fruit)
-#my_cur.execute("insert into fruit_load_list values ('from streamlit')")
+# add_my_fruit = streamlit.text_input('What more fruit would you like to add?')
+# streamlit.write('Thanks for adding  ', add_my_fruit)
+# my_cur.execute("insert into fruit_load_list values ('from streamlit')")
