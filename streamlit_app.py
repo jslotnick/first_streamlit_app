@@ -9,7 +9,7 @@ import streamlit
 #my_fruit_list = my_fruit_list.set_index('Fruit')
 
 streamlit.title("My Mom's new Healthy Diner")
-streamlit.header('Breakfast Menu')
+streamlit.header('Breakfast Favorites')
 streamlit.text('🥣 Omega 3 & Blueberry Oatmeal')
 streamlit.text('🥗 Kale, Spinach & Rocket Smoothie')
 streamlit.text('🐔 Hard-Boiled Free-Range Egg')
