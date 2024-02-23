@@ -64,7 +64,7 @@ try:
 #Puts it isnto a panda data frame
 # my guess is it give it puts names
 
-#streamlit.stop()
+streamlit.stop()
 
 add_my_fruit = streamlit.text_input('What more fruit would you like to add?')
 streamlit.write('Thanks for adding  ', add_my_fruit)
