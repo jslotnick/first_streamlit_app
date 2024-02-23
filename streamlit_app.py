@@ -34,7 +34,6 @@ def get_fruityvice_data(this_fruit_choice):
     fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
     return fruitvice_normalized
 
-#############################
 #New Section to display fruitvice api response
 
 streamlit.header("Fruityvice Fruit Advice!")
@@ -54,9 +53,6 @@ try:
 #streamlit.text(fruityvice_response.json())
 #Puts it isnto a panda data frame
 # my guess is it give it puts names
-
-#################################
-
 
 #streamlit.stop()
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
