@@ -64,8 +64,6 @@ try:
 #Puts it isnto a panda data frame
 # my guess is it give it puts names
 
-# streamlit.stop()
-
-# add_my_fruit = streamlit.text_input('What more fruit would you like to add?')
+add_my_fruit = streamlit.text_input('What more fruit would you like to add?')
 # streamlit.write('Thanks for adding  ', add_my_fruit)
 # my_cur.execute("insert into fruit_load_list values ('from streamlit')")
